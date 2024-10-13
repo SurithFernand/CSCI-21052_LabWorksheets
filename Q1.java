@@ -6,7 +6,7 @@ public class Q1 {
         System.out.println("Enter a odd length word: ");
         String text = input.next();
         int length = text.length();
-        while(text.length()%2==0){         //while(length%2==0)   ,this is also right
+        while(text.length()%2==0){        
             System.out.println("Enter a odd length word: ");
             text = input.next();
         }
